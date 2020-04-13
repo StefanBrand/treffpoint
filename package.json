@@ -1,0 +1,26 @@
+{
+  "name": "treffpoint",
+  "productName": "TreffPOINT",
+  "version": "0.0.2",
+  "description": "Mit diesem Programm kann eine Liederdatenbank verwaltet werden. Ausgewählte Lieder können automatisch als Powerpoint-Präsentation exportiert werden.",
+  "main": "main.js",
+  "scripts": {
+    "package": "electron-packager . --arch=all --overwrite --out=out",
+    "postpackage": "hide_n_sfx.bat",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stefan Brand",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "3.0.10",
+    "electron-connect": "^0.6.3"
+  },
+  "dependencies": {
+    "d3-selection": "^1.3.2",
+    "electron-data": "^2.1.0",
+    "jquery": "^3.3.1",
+    "pptxgenjs": "^2.4.0",
+    "sortablejs": "^1.8.0-rc1"
+  }
+}
