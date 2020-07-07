@@ -13,7 +13,7 @@
   "author": "Stefan Brand",
   "license": "ISC",
   "devDependencies": {
-    "electron": "3.0.10",
+    "electron": "9.1.0",
     "electron-connect": "^0.6.3"
   },
   "dependencies": {
